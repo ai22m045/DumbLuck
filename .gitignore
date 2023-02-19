@@ -1,4 +1,8 @@
-*.opendb
+# Directories
 .vs/
 bin/
 bin-int/
+
+# Files
+*.user
+*.opendb

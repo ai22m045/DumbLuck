@@ -1,0 +1,31 @@
+Questions and Answers:
+
+What is the difference between git and github?
+Git is a version control system. Git specifically works with the concept of repositories.
+Github is an online service for managing multiple repositories.
+
+
+Name 3 benefits of a version control system:
+Tracking changes
+Ability to easily revert to previous (working) versions
+Improves the merging of work of multiple people when working on the same file
+
+
+Name 3 alternatives to git:
+Azure DevOps Server
+TortoiseCVS
+GNU Bazaar
+
+
+Name 2 differences between git and other version control systems:
+Comparing Git with CVS:
+1) Git allows renaming files
+2) Git changes are marked per repository (not by file).
+
+
+Name known issues related to game engines (Unreal, Unity) and version control systems:
+Source Unreal Engine: https://issues.unrealengine.com/
+ZoneGraph does not automatically rebuild when Build ZoneGraph Wile Editing flag is enabled.
+PythonScriptPluin: UE_LOG Format Changed to Unicode after Redirection
+Crash during cloth initializations while the debug materials are being loaded
+Source Unity: 

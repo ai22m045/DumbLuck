@@ -1,3 +1,2 @@
-﻿  App.cpp
-C:\Users\thoma\source\repos\Semester 2\Engine Architecture and Design\DumbLuck\WhereIsGravity\src\App.cpp(9,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+﻿  WhereIsGravityApp.cpp
   WhereIsGravity.vcxproj -> C:\Users\thoma\source\repos\Semester 2\Engine Architecture and Design\DumbLuck\bin\Debug-x64\WhereIsGravity\WhereIsGravity.exe

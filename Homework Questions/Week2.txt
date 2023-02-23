@@ -1,0 +1,22 @@
+Questions and Answers:
+Describe a logging system with your own words:
+A file/window/system that displays a variaty of messages (info/warning/error). These messages usually include the origin and the severity.
+
+
+What is the difference between git submodules and git subtrees?
+Git submodules are a link to a specific version another repository.
+Git subtrees are a linkt to an entire other repository (including all the history).
+
+
+What is a build system in C++? Name 3 build systems:
+It generates a complete platform dependent set of files that allows us to run the entire project. This includes many types of version configurations.
+CMake
+PreMake
+Scons
+
+
+What is a package manager in C++? Name 3 package manager:
+It is a tool used to retrieve binaries from the web.
+bpt
+cpm
+conan

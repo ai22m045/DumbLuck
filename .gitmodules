@@ -1,0 +1,3 @@
+[submodule "DumbLuck/vendor/spdlog"]
+	path = DumbLuck/vendor/spdlog
+	url = https://github.com/gabime/spdlog

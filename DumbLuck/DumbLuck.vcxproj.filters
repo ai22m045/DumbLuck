@@ -4,6 +4,9 @@
     <Filter Include="DumbLuck">
       <UniqueIdentifier>{9CF3E870-88C0-437C-B1D9-31249D05790A}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DumbLuck\Events">
+      <UniqueIdentifier>{00F88C9C-6C83-FA60-7594-7D55E19E5661}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\DumbLuck.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\DumbLuck\EntryPoint.h">
       <Filter>DumbLuck</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DumbLuck\Events\ApplicationEvent.h">
+      <Filter>DumbLuck\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DumbLuck\Events\Event.h">
+      <Filter>DumbLuck\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DumbLuck\Events\KeyEvent.h">
+      <Filter>DumbLuck\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DumbLuck\Events\MouseEvent.h">
+      <Filter>DumbLuck\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\DumbLuck\Log.h">
       <Filter>DumbLuck</Filter>

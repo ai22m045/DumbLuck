@@ -1,0 +1,24 @@
+Questions and Answers:
+What is the difference between a dynamic linked library and a static library?
+A static library is code that is linked to the program at compile time.
+A dynamic library is loaded in, on demand, at runtime. This makes the binaries significantly smaller.
+
+
+Describe a logging system with your own words:
+A file/window/system that displays a variaty of messages (info/warning/error). These messages usually include the origin and the severity.
+
+
+What is a Design Pattern?
+Design patterns are "descriptions of communicating objects and classes that are customized to solve a general design problem in a particular context"
+A design pattern includes four essential elements:
+- pattern name
+- problem
+- solution
+- consequences
+source: Design Patterns. Elements of Reusable Object-Oriented Software, Gamma et.al.
+
+
+Name and describe 2 Design Patterns (except façade or adapter):
+Abstract Factory (87) Provide an interface for creating families ofrelated or dependent objects without specifying their concrete classes.
+Bridge (151) Decouple an abstraction from itsimplementation so that the two can vary independently.
+source: Design Patterns. Elements of Reusable Object-Oriented Software, Gamma et.al.

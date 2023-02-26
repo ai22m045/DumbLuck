@@ -2,7 +2,7 @@
 
 //For use by DumbLuck applications
 
-#include <stdio.h>
+#include "dlpch.h"
 #include "DumbLuck/App.h"
 #include "DumbLuck/Log.h"
 

@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace DumbLuck {
 	class DUMBLUCK_API KeyEvent : public Event
 	{

@@ -1,3 +1,6 @@
 [submodule "DumbLuck/vendor/spdlog"]
 	path = DumbLuck/vendor/spdlog
 	url = https://github.com/gabime/spdlog
+[submodule "DumbLuck/vendor/GLFW"]
+	path = DumbLuck/vendor/GLFW
+	url = https://github.com/TheCherno/glfw

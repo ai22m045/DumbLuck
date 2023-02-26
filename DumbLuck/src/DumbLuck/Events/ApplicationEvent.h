@@ -2,8 +2,6 @@
 
 #include "DumbLuck/Events/Event.h"
 
-#include <sstream>
-
 namespace DumbLuck {
 	class DUMBLUCK_API WindowResizeEvent : public Event
 	{

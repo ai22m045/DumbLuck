@@ -10,6 +10,13 @@ workspace "DumbLuck"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+-- Include directories relative to root folder (solution directory)
+IncludeDir = {}
+IncludeDir["GLFW"] = "DumbLuck/vendor/GLFW/include"
+
+include "DumbLuck/vendor/GLFW"
+
+
 project "DumbLuck"
 	location "DumbLuck"
 	kind "SharedLib"
@@ -17,6 +24,9 @@ project "DumbLuck"
 	
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
+	
+	pchheader "dlpch.h"
+	pchsource "DumbLuck/src/dlpch.cpp"
 	
 	files
 	{
@@ -27,7 +37,14 @@ project "DumbLuck"
 	includedirs
 	{
 		"%{prj.name}/src",
-		"%{prj.name}/vendor/spdlog/include"
+		"%{prj.name}/vendor/spdlog/include",
+		"%{IncludeDir.GLFW}"
+	}
+
+	links
+	{
+		"GLFW",
+		"opengl32.lib"
 	}
 	
 	filter "system:windows"

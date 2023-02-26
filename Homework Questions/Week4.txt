@@ -1,0 +1,23 @@
+Questions and Answers:
+What is a precompiled header? Name pros and cons:
+It's a file that mainly consists of "includes" that are generally needed for all the .cpp files in the project. This file is compiled only the first time this file is changed into a binary.
+Pros:
+Once compiled, and configured correctly, Visual Studios (and most other compilers) will not recompile this file and significantly speed up the project build process.
+Cons:
+There is no overview of which individual .cpp file requires which include. 
+This means that there is a possibility that too many includes are uneccessarily added to the project.
+
+
+Describe the layer of abstraction with your own words:
+A layer of abstraction is used as a set of functions that translate predefined functions from 3 party libraries.
+This allows us to change 3 party libraries and only change the abstraction layer without having to change the entire code.
+This can also be used to make platform specific functions.
+
+
+Name the SOLID principles and describe them briefly:
+Single responsibility: A class or module should only have 1 responsibility (function).
+Open-Closed: A class's functions should not be modified. Any required changes should be extensions to the class.
+Liskov substituion: Derived classes extend the base class without changing the behaviour.
+Interface segregation: Interfaces should be client-specific and not general purpose.
+Dependency inversion: Both high and low level moduls should not depend on eachother, but an abstraction between them.
+Source: https://www.bmc.com/blogs/solid-design-principles/#:~:text=SOLID%20is%20an%20acronym%20that,some%20important%20benefits%20for%20developers.

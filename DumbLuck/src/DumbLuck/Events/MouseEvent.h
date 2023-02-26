@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace DumbLuck {
 	class DUMBLUCK_API MouseMovedEvent : public Event
 	{
@@ -20,7 +18,7 @@ namespace DumbLuck {
 			return ss.str();
 		}
 		
-		EVENT_CLASS_TYPE(MouseMovement);
+		EVENT_CLASS_TYPE(MouseMoved);
 		EVENT_CLASS_CATEGORY(EventCategoryMouse | EventCategoryInput);
 	private:
 		float m_MouseX, m_MouseY;

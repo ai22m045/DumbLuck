@@ -1,3 +1,4 @@
+#include "dlpch.h"
 #include "Log.h"
 
 namespace DumbLuck {

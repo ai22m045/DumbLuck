@@ -2,10 +2,6 @@
 
 #include "DumbLuck/Core.h"
 
-#include <string>
-#include <functional>
-
-
 namespace DumbLuck {
 
 	enum class EventType
